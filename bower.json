@@ -1,0 +1,31 @@
+{
+  "name": "zhuqingting.org",
+  "version": "0.1.0",
+  "homepage": "https://github.com/likidu/zhuqingting.org",
+  "description": "ZhuQingTing",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "NGO",
+    "jQuery",
+    "NodeJS"
+  ],
+  "authors": [
+    "Liki Du"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
