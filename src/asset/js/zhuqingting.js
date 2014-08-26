@@ -45,10 +45,10 @@ typed = {
         return button.html("发送邮件中&hellip;")
       },
       success: function(a, b, c) {
-        return _self.doSuccess()
+        return _self.doSuccess();
       },
       error: function(a, b, c) {
-        return _self.doSuccess()
+        return _self.doSuccess();
         // button.html(button_orig);
         // return alert("Sorry, there was a problem signing up. Please try again.")
       },
@@ -81,7 +81,7 @@ typed = {
   doSuccess: function() {
     var success_html;
     success_html = $("#tpl-signup-success").html().trim();
-    return typed.popover.show(success_html)
+    return typed.popover.show(success_html);
   }
 };
 typed.popover = {
